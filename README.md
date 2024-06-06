@@ -1,2 +1,3 @@
 # minorProject
-This is for Digital Class System
+This is for Digital Class System.
+Student1:- Pranab Mahananda
