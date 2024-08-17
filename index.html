@@ -1,1 +1,45 @@
-<p>Hello world</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+    <link rel="stylesheet" href="new.css">
+</head>
+<body>
+<div class="container">
+    <div class="box1">
+        <h3>Total investment:</h3>
+        <input oninput="myFunction()" type="text" id="invest" placeholder="Current Balance">
+        <input oninput="myFunction()" type="text" id="per" placeholder="Trade%">
+        <h3>Total days:</h3>
+        <input oninput="myFunction()" type="text" id="days" placeholder="Days">
+    </div>
+
+    <div class="box2">
+        <h3>Total percentage:</h3>
+        <div class="print"></div>
+        <h3>Total amount:</h3>
+        <div class="printT"></div>
+    </div>
+
+</div>
+
+<div class="container2">
+    <input type="text" id="entrNum1">
+    <input type="text" id="entrNum2"><br><br>
+    <select id="operator">
+        <option value="add">add(+)</option>
+        <option value="subtract">subtract(-)</option>
+        <option value="multiply">multiply(*)</option>
+        <option value="devide">devide(/)</option>
+        <option value="percentage">percentage(%)</option>
+    </select>
+    <button onclick="myFun()">=</button>
+   <br><br>
+
+    <div id="output"></div>
+</div>
+    <script src="old.js"></script>
+</body>
+</html>
